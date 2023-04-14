@@ -11,7 +11,7 @@
 
 S = int(input("Input a total sum of origami cranes (divisible by 6) the kids made: "))
 
-if S%6 != 0 or S<0:
-    print('Data error')
+if S%6 != 0 or S<=0:
+    print('Input data error')
 else:
     print(S//6, " ", (S//6)*4, " ", S//6)
